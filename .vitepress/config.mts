@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  // GitHub Pages-এ host করলে repo name অনুযায়ী base লাগে
+  // GitHub Actions workflow থেকে BASE="/<repo>/" সেট করে deploy করা হবে
+  base: process.env.BASE || "/",
   title: "TypeScript Bangla Handbook",
   description: "বাংলায় TypeScript শেখার chapter-wise handbook",
   lang: "en-US",

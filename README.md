@@ -74,8 +74,17 @@ npm run docs:preview
 
 ## Deploy (GitHub Pages)
 
-The easiest path is GitHub Pages via GitHub Actions.
-If needed, a workflow can be added to build and publish the VitePress site automatically.
+Auto deploy is supported via GitHub Actions workflow:
+
+- `.github/workflows/deploy.yml`
+
+### Steps in GitHub
+
+1. Repository → **Settings** → **Pages**
+2. **Build and deployment** → Source: **GitHub Actions**
+3. Push to `main` branch
+
+After the workflow completes, the site will be available on GitHub Pages.
 
 ## License
 
