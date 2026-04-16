@@ -19,7 +19,9 @@ export default defineConfig({
           { text: "Introduction", link: "/chapter-1" },
           { text: "Operators", link: "/chapter-2" },
           { text: "Types", link: "/chapter-3" },
-          { text: "Functions", link: "/chapter-4" }
+          { text: "Functions", link: "/chapter-4" },
+          { text: "Interfaces", link: "/chapter-5" },
+          { text: "Classes", link: "/chapter-6" }
         ]
       },
       { text: "GitHub", link: "https://github.com/riponahmed2201/TypeScript-Bangla-Handbook" }
@@ -38,7 +40,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Types", link: "/chapter-3" },
-          { text: "Functions", link: "/chapter-4" }
+          { text: "Functions", link: "/chapter-4" },
+          { text: "Interfaces", link: "/chapter-5" },
+          { text: "Classes", link: "/chapter-6" }
         ]
       },
       
