@@ -11,7 +11,7 @@
 6.7 Method Overriding
 6.8 Constructor Overloading
 
-# অধ্যায় ৬: TypeScript Classes
+## অধ্যায় ৬: TypeScript Classes
 
 ## ৬.১ TypeScript Class
 
@@ -43,7 +43,7 @@ class Person {
   }
 
   introduce(): string {
-    return `Hi, my name is ${this.name} and I am ${this.age} years old.`;
+    return `নাম: ${this.name}, বয়স: ${this.age}`;
   }
 }
 
@@ -319,13 +319,13 @@ class Animal {
   constructor(public name: string) {}
 
   move(): string {
-    return `${this.name} is moving`;
+    return `${this.name} চলছে`;
   }
 }
 
 class Dog extends Animal {
   bark(): string {
-    return `${this.name} says woof`;
+    return `${this.name} ঘেউ ঘেউ করছে`;
   }
 }
 
@@ -343,13 +343,13 @@ Subclass parent method override করতে পারে।
 ```ts
 class Vehicle {
   start(): string {
-    return "Vehicle started";
+    return "যানবাহন চালু হয়েছে";
   }
 }
 
 class Car extends Vehicle {
   override start(): string {
-    return "Car started";
+    return "গাড়ি চালু হয়েছে";
   }
 }
 ```
@@ -625,7 +625,7 @@ class Person {
   ) {}
 
   getName(): string {
-    return `I am ${this.firstName} ${this.lastName}.`;
+    return `নাম: ${this.firstName} ${this.lastName}`;
   }
 }
 
@@ -640,7 +640,7 @@ class Employee extends Person {
 
   displayInfo(): void {
     console.log(super.getName());
-    console.log(`My job title is ${this.jobTitle}.`);
+    console.log(`পদবি: ${this.jobTitle}`);
   }
 }
 
@@ -665,7 +665,7 @@ class PersonBase {
   ) {}
 
   displayInfo(): string {
-    return `I am ${this.firstName} ${this.lastName}.`;
+    return `নাম: ${this.firstName} ${this.lastName}`;
   }
 }
 
@@ -679,7 +679,7 @@ class EmployeeBase extends PersonBase {
   }
 
   override displayInfo(): string {
-    return `${super.displayInfo()} The job title is ${this.jobTitle}.`;
+    return `${super.displayInfo()} | পদবি: ${this.jobTitle}`;
   }
 }
 
@@ -906,18 +906,18 @@ Method Overriding হলো এমন একটি কৌশল, যেখান
 ```ts
 class Vehicle {
   start(): string {
-    return "Vehicle started";
+    return "যানবাহন চালু হয়েছে";
   }
 }
 
 class Car extends Vehicle {
   override start(): string {
-    return "Car started";
+    return "গাড়ি চালু হয়েছে";
   }
 }
 
 const v: Vehicle = new Car();
-console.log(v.start()); // Car started
+console.log(v.start()); // গাড়ি চালু হয়েছে
 ```
 
 এখানে `Vehicle` reference (`v`) থাকলেও runtime‑এ `Car.start()` call হচ্ছে।
@@ -936,7 +936,7 @@ class Person {
   ) {}
 
   display(): string {
-    return `I am ${this.firstName} ${this.lastName}.`;
+    return `নাম: ${this.firstName} ${this.lastName}`;
   }
 }
 
@@ -950,7 +950,7 @@ class Employee extends Person {
   }
 
   override display(): string {
-    return `${super.display()} Job title: ${this.jobTitle}.`;
+    return `${super.display()} | পদবি: ${this.jobTitle}`;
   }
 }
 ```
