@@ -1,0 +1,26 @@
+{
+  "name": "typescript-bangla-handbook",
+  "version": "1.0.0",
+  "description": "TypeScript Bangla Handbook with VitePress",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riponahmed2201/TypeScript-Bangla-Handbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/riponahmed2201/TypeScript-Bangla-Handbook/issues"
+  },
+  "homepage": "https://github.com/riponahmed2201/TypeScript-Bangla-Handbook#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

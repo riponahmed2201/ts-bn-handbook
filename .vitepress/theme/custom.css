@@ -1,0 +1,158 @@
+:root {
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #1e40af;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.14);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #2563eb 10%, #7c3aed 60%, #0ea5e9 100%);
+}
+
+.VPHome {
+  background:
+    radial-gradient(600px 240px at 5% 0%, rgba(37, 99, 235, 0.12), transparent 60%),
+    radial-gradient(680px 260px at 95% 0%, rgba(124, 58, 237, 0.12), transparent 62%);
+}
+
+.VPHomeHero .text {
+  max-width: 820px;
+  line-height: 1.2;
+}
+
+.VPHomeHero .tagline {
+  max-width: 860px;
+  font-size: 1.06rem;
+}
+
+.VPHome .VPButton.brand {
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.28);
+}
+
+.VPFeature {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6));
+}
+
+.dark .VPFeature {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+}
+
+/* Header polish */
+.VPNavBar {
+  backdrop-filter: saturate(180%) blur(10px);
+  background: color-mix(in srgb, var(--vp-c-bg) 82%, transparent);
+}
+
+.VPNavBarTitle .title {
+  font-weight: 800;
+  letter-spacing: 0.1px;
+}
+
+.VPNavBarTitle .title span {
+  background: linear-gradient(120deg, #2563eb 10%, #7c3aed 55%, #0ea5e9 95%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.VPNavBarMenuLink.active {
+  background: var(--vp-c-brand-soft);
+  border-radius: 8px;
+}
+
+/* Sidebar premium look */
+.VPSidebar {
+  padding-top: 12px;
+}
+
+.VPSidebarItem.level-0 {
+  margin: 6px 0 10px;
+  padding: 6px 0 10px;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--vp-c-divider) 80%, transparent);
+  border-radius: 0;
+  background: transparent;
+}
+
+.VPSidebarItem.level-0 > .item > .text {
+  font-weight: 700;
+  font-size: 0.86rem;
+  letter-spacing: 0.2px;
+  opacity: 0.9;
+}
+
+.VPSidebarItem .link {
+  border-radius: 8px;
+}
+
+.VPSidebarItem .link.active {
+  background: var(--vp-c-brand-soft);
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 40%, var(--vp-c-divider));
+}
+
+.VPSidebarItem.level-1 {
+  margin-top: 6px;
+}
+
+.VPSidebarItem.level-1 .link {
+  padding: 6px 10px;
+}
+
+.VPSidebarItem.level-1 .link:hover {
+  background: color-mix(in srgb, var(--vp-c-bg-alt) 55%, transparent);
+}
+
+/* Home quick navigation cards */
+.tsbh-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 14px 0 6px;
+}
+
+@media (max-width: 640px) {
+  .tsbh-nav-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tsbh-nav-card {
+  display: block;
+  padding: 14px 14px 12px;
+  border: 1px solid color-mix(in srgb, var(--vp-c-divider) 85%, transparent);
+  border-radius: 14px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--vp-c-bg-alt) 75%, transparent), transparent);
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+  text-decoration: none;
+}
+
+.tsbh-nav-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--vp-c-brand-1) 45%, var(--vp-c-divider));
+  background: linear-gradient(180deg, color-mix(in srgb, var(--vp-c-brand-soft) 55%, transparent), transparent);
+}
+
+.tsbh-nav-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--vp-c-brand-soft) 55%, transparent);
+  border: 1px solid color-mix(in srgb, var(--vp-c-brand-1) 28%, var(--vp-c-divider));
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tsbh-nav-title {
+  font-weight: 800;
+  letter-spacing: 0.1px;
+  margin-bottom: 4px;
+  color: var(--vp-c-text-1);
+}
+
+.tsbh-nav-desc {
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--vp-c-text-2);
+}
