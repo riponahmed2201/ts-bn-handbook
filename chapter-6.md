@@ -1088,6 +1088,27 @@ Constructor Overloading TypeScript‑এ multiple instantiation style support �
 
 ---
 
+## অধ্যায় ৬ সারসংক্ষেপ
+
+এই অধ্যায়ে আমরা শিখলাম:
+
+1. class structure, constructor params, access modifiers  
+2. abstract class, inheritance, polymorphism, overriding  
+3. constructor overloading এবং object-oriented design pattern  
+
+Class-based modeling domain-driven TypeScript project-এ structure এবং code reuse বাড়াতে খুব কার্যকর।
+
+---
+
+## অনুশীলনী (Practice)
+
+1. `Vehicle -> Car -> ElectricCar` inheritance chain তৈরি করো  
+2. `abstract Payment` class বানিয়ে 2টা implementation লেখো  
+3. `private`/`protected` ব্যবহার করে encapsulated class design করো  
+4. constructor overload সহ `Point` বা `Range` class তৈরি করো  
+
+---
+
 ## References
 
 - [GeeksforGeeks — TypeScript class](https://www.geeksforgeeks.org/typescript/typescript-class/)

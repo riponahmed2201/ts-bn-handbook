@@ -388,3 +388,32 @@ console.log(c.interval);
 
 Hybrid Types TypeScript-এর একটি advanced pattern, যা function এবং object behavior একত্রে প্রকাশ করতে সক্ষম।  
 সঠিক প্রয়োগে powerful API design সম্ভব হয়, তবে অতিরিক্ত ব্যবহার complexity বাড়াতে পারে।
+
+---
+
+## অধ্যায় ৫ সারসংক্ষেপ
+
+এই অধ্যায়ে আমরা শিখলাম:
+
+1. interface দিয়ে object contract এবং API shape define করা  
+2. interface বনাম type এবং class-এর সাথে interface ব্যবহার  
+3. conditional/hybrid interface pattern দিয়ে advanced modeling  
+
+Interface-centric design team-based codebase-এ consistency এবং maintainability অনেক উন্নত করে।
+
+---
+
+## অনুশীলনী (Practice)
+
+1. `UserProfile` interface তৈরি করে class-এ implement করো  
+2. একই data model type alias এবং interface—দুইভাবে লিখে পার্থক্য দেখো  
+3. hybrid type style callable object utility তৈরি করো  
+4. optional ও readonly property সহ reusable interface design করো  
+
+---
+
+## References
+
+- [TypeScript Handbook - Interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html)
+- [TypeScript Handbook - Type Compatibility](https://www.typescriptlang.org/docs/handbook/type-compatibility.html)
+- [TypeScript Handbook - Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)

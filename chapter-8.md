@@ -215,11 +215,18 @@ class LoggerService {}
 3. framework lifecycle tagging  
 4. class-level logging/instrumentation  
 
-### সতর্কতা
+### Common Mistakes
 
 1. decorator class replace করলে instance type behavior বুঝে ব্যবহার করতে হবে  
 2. side effect-heavy decorator avoid করা উচিত  
 3. implicit magic কমিয়ে explicit naming রাখা ভালো  
+
+### Best Practices
+
+1. class decorator ছোট ও focused responsibility-তে ব্যবহার করা ভালো  
+2. decorator factory option object ব্যবহার করলে API readable থাকে  
+3. metadata attach করলে naming convention consistent রাখা উচিত  
+4. production code-এ decorator behavior unit test করা প্রয়োজন  
 
 ### সংক্ষিপ্ত সারাংশ
 
@@ -518,3 +525,20 @@ Property decorator metadata-driven design-এ গুরুত্বপূর্�
 
 Decorator হলো powerful কিন্তু sensitive feature।  
 এটি ব্যবহার করার সময় clarity, convention, এবং test coverage বজায় রাখলে codebase maintainability অনেক উন্নত হয়।
+
+---
+
+## অনুশীলনী (Practice)
+
+1. `@Service({ singleton: true })` class decorator তৈরি করে metadata attach করো  
+2. `@RequiredField` + `@MinLength(5)` দিয়ে DTO validation flow implement করো  
+3. stacked decorators ব্যবহার করে execution order observe করো  
+4. decorator-based metadata registry আলাদা module-এ extract করো  
+
+---
+
+## References
+
+- [TypeScript Handbook - Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
+- [TypeScript TSConfig - experimentalDecorators](https://www.typescriptlang.org/tsconfig/experimentalDecorators.html)
+- [TypeScript TSConfig - emitDecoratorMetadata](https://www.typescriptlang.org/tsconfig/emitDecoratorMetadata.html)

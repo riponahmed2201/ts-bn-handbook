@@ -670,6 +670,15 @@ TypeScript-এ generics ঠিকভাবে আয়ত্ত করতে প�
 
 ---
 
+## অনুশীলনী (Practice)
+
+1. `ApiResponse<T>` এবং `Paginated<T>` generic type নিজে implement করো  
+2. `getProp<T, K extends keyof T>` helper function লিখে misuse case test করো  
+3. generic class `EntityStore<T extends { id: number }>` তৈরি করে CRUD method যোগ করো  
+4. কোনো existing non-generic utility-কে generic করে refactor করো  
+
+---
+
 ## References
 
 - [TypeScript Handbook - Generics](https://www.typescriptlang.org/docs/handbook/2/generics.html)

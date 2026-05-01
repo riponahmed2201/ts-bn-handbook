@@ -1101,3 +1101,33 @@ npx tsc hello.ts --strict
 
 TypeScript file command line থেকে চালাতে মূল প্রক্রিয়া হলো: `tsc` দিয়ে compile এবং `node` দিয়ে execute।  
 `npx tsc`, `tsc --watch`, এবং script-based workflow ব্যবহারের মাধ্যমে command-line development আরও দ্রুত, নির্ভরযোগ্য এবং maintainable হয়।
+
+---
+
+## অধ্যায় ১ সারসংক্ষেপ
+
+এই অধ্যায়ে আমরা শিখলাম:
+
+1. TypeScript-এর ইতিহাস, প্রয়োজন, এবং JavaScript-এর সাথে সম্পর্ক  
+2. TypeScript installation, compiler usage, এবং project setup  
+3. `tsc`, `tsconfig.json`, এবং command-line workflow  
+
+TypeScript শেখার foundation এই অধ্যায়।  
+এই বেসিকগুলো পরিষ্কার হলে পরের type system, functions, classes, generics—সব topic বুঝতে সহজ হবে।
+
+---
+
+## অনুশীলনী (Practice)
+
+1. নতুন folder-এ TypeScript project setup করো (`npm init`, `typescript`, `tsconfig`)  
+2. `src/index.ts` লিখে compile করে `dist/index.js` run করো  
+3. `tsconfig.json`-এ `rootDir`, `outDir`, `strict` পরিবর্তন করে output observe করো  
+4. `--watch` mode চালিয়ে live compile workflow প্র্যাকটিস করো  
+
+---
+
+## References
+
+- [TypeScript Handbook - The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+- [TypeScript Handbook - Basic Types](https://www.typescriptlang.org/docs/handbook/2/basic-types.html)
+- [TSConfig Reference](https://www.typescriptlang.org/tsconfig)

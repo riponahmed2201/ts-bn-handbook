@@ -1113,3 +1113,32 @@ function isNonEmptyString(value: unknown): value is string {
 
 Type Predicates TypeScript-এ custom, explicit, এবং reusable type narrowing বাস্তবায়নের শক্তিশালী উপায়।  
 সঠিকভাবে প্রয়োগ করলে unknown বা union data-এর উপর নিরাপদ branch logic তৈরি করা যায় এবং overall type safety উল্লেখযোগ্যভাবে উন্নত হয়।
+
+---
+
+## অধ্যায় ৩ সারসংক্ষেপ
+
+এই অধ্যায়ে আমরা শিখলাম:
+
+1. type inference এবং compiler কীভাবে type ধরে  
+2. union, intersection, type alias, `keyof` দিয়ে type composition  
+3. narrowing techniques (`typeof`, `instanceof`, equality, truthiness, predicate)  
+
+Type system ভালোভাবে বুঝলে TypeScript codebase-এ refactor-safe ও bug-resistant design করা সহজ হয়।
+
+---
+
+## অনুশীলনী (Practice)
+
+1. union type input নিয়ে `typeof` narrowing function লিখো  
+2. custom `type predicate` তৈরি করে API data validate করো  
+3. `keyof` ব্যবহার করে safe property accessor helper লিখো  
+4. intersection type দিয়ে combined domain model তৈরি করো  
+
+---
+
+## References
+
+- [TypeScript Handbook - Type Inference](https://www.typescriptlang.org/docs/handbook/type-inference.html)
+- [TypeScript Handbook - Unions and Intersections](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)
+- [TypeScript Handbook - Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)

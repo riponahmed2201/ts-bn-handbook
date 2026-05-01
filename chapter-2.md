@@ -826,3 +826,32 @@ function handleResponse(response: SuccessResponse | ErrorResponse): void {
 
 `in` operator TypeScript-এ object key existence যাচাই এবং union type narrowing-এর জন্য অত্যন্ত কার্যকর।  
 সঠিকভাবে ব্যবহার করলে object-based branching আরও পরিষ্কার, নিরাপদ, এবং maintainable হয়।
+
+---
+
+## অধ্যায় ২ সারসংক্ষেপ
+
+এই অধ্যায়ে আমরা শিখলাম:
+
+1. TypeScript operators-এর core categories এবং practical usage  
+2. `??`, non-null assertion, spread, `instanceof`, এবং `in` operator  
+3. type-safe condition, fallback logic, এবং narrowing strategy  
+
+Operator mastery থাকলে expression-level bug কমে এবং code readability অনেক বাড়ে।
+
+---
+
+## অনুশীলনী (Practice)
+
+1. `??` এবং `||` এর পার্থক্য দেখাতে ৫টি উদাহরণ লিখো  
+2. `instanceof` দিয়ে union class type narrow করার function লিখো  
+3. `in` operator দিয়ে API response branching implement করো  
+4. spread operator দিয়ে immutable merge/update utility তৈরি করো  
+
+---
+
+## References
+
+- [TypeScript Handbook - Narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+- [MDN - Nullish Coalescing Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing)
+- [MDN - Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)

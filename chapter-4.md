@@ -1009,3 +1009,32 @@ function parseJson<T>(text: string): T | null {
 
 TypeScript Function কেবল function declaration নয়; এটি typed contract-driven design approach।  
 সঠিকভাবে parameter/return typing, narrowing, abstraction, এবং reusable pattern প্রয়োগ করলে function-level architecture আরও নির্ভরযোগ্য, maintainable, এবং production-ready হয়।
+
+---
+
+## অধ্যায় ৪ সারসংক্ষেপ
+
+এই অধ্যায়ে আমরা শিখলাম:
+
+1. function typing fundamentals (parameter, return, optional/default)  
+2. rest parameter, overload, arrow/lambda, anonymous function  
+3. higher-order function এবং reusable typed function design  
+
+Function-level typing ভালো হলে application-এর business logic layer অনেক বেশি predictable হয়।
+
+---
+
+## অনুশীলনী (Practice)
+
+1. overload ব্যবহার করে `formatValue` function তৈরি করো  
+2. generic callback সহ একটি `mapValues` higher-order function লিখো  
+3. rest parameter দিয়ে `sumAll(...nums)` utility বানাও  
+4. explicit return type ছাড়া এবং return type সহ function compare করো  
+
+---
+
+## References
+
+- [TypeScript Handbook - More on Functions](https://www.typescriptlang.org/docs/handbook/2/functions.html)
+- [MDN - Arrow Function Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [TypeScript Handbook - Generics (for function reuse)](https://www.typescriptlang.org/docs/handbook/2/generics.html)
