@@ -9,6 +9,12 @@
 
 ## অধ্যায় ৮: TypeScript Decorators
 
+### কীভাবে পড়বে (Print-friendly)
+
+1. আগে decorator concept এবং setup option বুঝে নাও  
+2. class decorator থেকে property decorator-এ যাও  
+3. metadata flow (collect -> validate/use) আলাদা কাগজে লিখে বোঝো  
+
 ## ৮.১ Decorators
 
 Decorator হলো TypeScript-এর একটি advanced feature, যার মাধ্যমে class বা class member-এর behavior-এ metadata/extra logic যোগ করা যায়।  

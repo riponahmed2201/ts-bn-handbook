@@ -16,7 +16,13 @@
 3.3.5 Truthiness Narrowing
 3.3.6 Type Predicates
 
-# অধ্যায় ৩: TypeScript Types
+## অধ্যায় ৩: TypeScript Types
+
+### কীভাবে পড়বে (Print-friendly)
+
+1. inference এবং union/intersection অংশ আগে পরিষ্কার করো  
+2. narrowing-এর প্রতিটি কৌশল (`typeof`, `instanceof`, predicate) আলাদা করে নোট করো  
+3. প্রতিটি section শেষে নিজের ভাষায় ২-৩ লাইন summary লেখো  
 
 ## ৩.১ Type Inference
 

@@ -13,6 +13,12 @@
 
 ## অধ্যায় ৬: TypeScript Classes
 
+### কীভাবে পড়বে (Print-friendly)
+
+1. class, constructor, modifier অংশ আগে ধরো  
+2. inheritance/polymorphism অংশ diagram কল্পনা করে পড়ো  
+3. chapter শেষে OOP practice code নিজে লিখে test করো  
+
 ## ৬.১ TypeScript Class
 
 TypeScript Class হলো object তৈরি করার একটি blueprint বা template।  

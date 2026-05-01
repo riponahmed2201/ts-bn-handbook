@@ -10,7 +10,13 @@
 1.6 TypeScript Project Setup  
 1.7 TypeScript File Using the Command Line
 
-# অধ্যায় ১: Introduction to TypeScript
+## অধ্যায় ১: Introduction to TypeScript
+
+### কীভাবে পড়বে (Print-friendly)
+
+1. প্রতিটি section-এ আগে concept অংশ পড়বে  
+2. এরপর code example দেখে concept মিলিয়ে বুঝবে  
+3. chapter শেষে অনুশীলনী সমাধান করে শেখা যাচাই করবে  
 
 ## ১.১ TypeScript-এর ইতিহাস (History of TypeScript)
 

@@ -9,7 +9,13 @@
 2.5 Instanceof
 2.6 in Operator
 
-# অধ্যায় ২: TypeScript Operators
+## অধ্যায় ২: TypeScript Operators
+
+### কীভাবে পড়বে (Print-friendly)
+
+1. আগে operator-এর purpose বোঝো, তারপর syntax দেখো  
+2. মিল আছে এমন operator (`??` vs `||`, `in` vs `instanceof`) তুলনা করে পড়ো  
+3. শেষে practice section করে নিজে condition logic লিখো  
 
 ## ২.১ TypeScript Operators
 

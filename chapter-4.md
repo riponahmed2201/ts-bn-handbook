@@ -10,7 +10,13 @@
 4.6 Anonymous Functions
 4.7 TypeScript Function
 
-# অধ্যায় ৪: TypeScript Functions
+## অধ্যায় ৪: TypeScript Functions
+
+### কীভাবে পড়বে (Print-friendly)
+
+1. function signature (input/output) অংশে বেশি focus দাও  
+2. overload এবং higher-order function অংশ code লিখে practice করো  
+3. practice section-এর task গুলো নিজে run করে output মিলাও  
 
 ## ৪.১ TypeScript Functions
 

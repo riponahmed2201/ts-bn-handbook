@@ -13,6 +13,12 @@
 
 ## অধ্যায় ৭: TypeScript Generics
 
+### কীভাবে পড়বে (Print-friendly)
+
+1. generic concept (placeholder type) আগে পরিষ্কার করো  
+2. constraint, interface, class-এর generic usage ধাপে ধাপে পড়ো  
+3. প্রতিটি example-এ type inference নিজে বের করার চেষ্টা করো  
+
 ## ৭.১ Generics
 
 Generics হলো TypeScript-এর এমন একটি শক্তিশালী feature, যার মাধ্যমে আমরা **reusable** কিন্তু একই সাথে **type-safe** code লিখতে পারি।

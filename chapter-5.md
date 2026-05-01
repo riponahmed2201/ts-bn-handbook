@@ -8,7 +8,13 @@
 5.4 Interface with conditional type  
 5.5 Hybrid types
 
-# অধ্যায় ৫: TypeScript Interface
+## অধ্যায় ৫: TypeScript Interface
+
+### কীভাবে পড়বে (Print-friendly)
+
+1. interface কে contract হিসেবে ভাবো, implementation হিসেবে না  
+2. `interface vs type` অংশ তুলনামূলকভাবে পড়ো  
+3. practice-এ interface based model নিজে বানিয়ে verify করো  
 
 ## ৫.১ Interfaces
 
